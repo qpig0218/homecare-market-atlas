@@ -1,0 +1,16 @@
+{
+  "name": "homecare-market-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node verify.mjs"
+  },
+  "dependencies": {
+    "marked": "17.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
